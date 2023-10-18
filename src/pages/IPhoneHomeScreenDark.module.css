@@ -1,0 +1,393 @@
+.time1 {
+  position: absolute;
+  width: 26.81%;
+  top: 33.96%;
+  left: 36.96%;
+  line-height: 22px;
+  display: inline-block;
+}
+.levelsIcon,
+.time {
+  position: relative;
+  width: 138px;
+  height: 54px;
+}
+.levelsIcon {
+  width: 143px;
+}
+.statusBar {
+  width: 393px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-93xl);
+  font-size: var(--font-size-mid);
+}
+.appIcon,
+.noAppIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.noAppIcon {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.appIcon {
+  border-radius: var(--br-sm);
+  width: 60px;
+  height: 60px;
+}
+.badge1 {
+  width: 100%;
+  top: calc(50% - 12px);
+  right: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--colors-red);
+  height: 24px;
+}
+.badge,
+.badge1,
+.number {
+  position: absolute;
+}
+.number {
+  width: 100%;
+  top: calc(50% - 9.5px);
+  left: 0;
+  display: inline-block;
+}
+.badge {
+  top: -10px;
+  left: calc(50% + 17px);
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.appName,
+.frame {
+  position: relative;
+}
+.frame {
+  width: 60px;
+  height: 60px;
+}
+.appName {
+  align-self: stretch;
+  font-size: var(--caption1-regular-size);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 14px;
+  flex-shrink: 0;
+}
+.row6App4 {
+  position: absolute;
+  left: 271px;
+}
+.row6App2,
+.row6App3,
+.row6App4 {
+  top: 0;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.row6App3 {
+  position: absolute;
+  left: 180.67px;
+}
+.row6App2 {
+  left: 90.33px;
+}
+.row6,
+.row6App1,
+.row6App2 {
+  position: absolute;
+}
+.row6App1 {
+  top: 0;
+  left: 0;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.row6 {
+  top: 516px;
+  left: 31px;
+  width: 331px;
+  height: 79px;
+  display: none;
+}
+.row5App3,
+.row5App4 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.row5App4 {
+  position: absolute;
+  top: 0;
+  left: 271px;
+  width: 60px;
+  display: none;
+}
+.row5App3 {
+  left: 180.67px;
+}
+.appIcon7,
+.row5App2,
+.row5App3 {
+  position: absolute;
+  top: 0;
+  width: 60px;
+  display: none;
+}
+.row5App2 {
+  left: 90.33px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.appIcon7 {
+  left: 0;
+  border-radius: var(--br-sm);
+  height: 60px;
+  overflow: hidden;
+}
+.appName7 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--caption1-regular-size);
+  font-family: var(--font-helvetica);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 14px;
+  flex-shrink: 0;
+}
+.row4,
+.row5 {
+  position: absolute;
+  top: 418px;
+  left: 31px;
+  width: 331px;
+  height: 79px;
+}
+.row4 {
+  top: 320px;
+}
+.row3App3,
+.row3App4 {
+  position: absolute;
+  top: 0;
+  left: 270.99px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.row3App3 {
+  left: 180.66px;
+}
+.row2,
+.row3 {
+  position: absolute;
+  top: 222px;
+  left: 31px;
+  width: 331px;
+  height: 79px;
+}
+.row2 {
+  top: 124px;
+}
+.date {
+  top: 21.67%;
+  left: 33.33%;
+  font-weight: 300;
+}
+.appIcon22,
+.date,
+.day {
+  position: absolute;
+}
+.day {
+  top: 7.22%;
+  left: 28.33%;
+  font-size: var(--font-size-xs-5);
+  color: var(--color-tomato-100);
+}
+.appIcon22 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--labels-primary-dark);
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+.appName22,
+.badge44 {
+  color: var(--labels-primary-dark);
+}
+.badge44 {
+  position: absolute;
+  top: -10px;
+  left: calc(50% + 17px);
+  width: 24px;
+  height: 24px;
+  display: none;
+  font-size: var(--font-size-base);
+  font-family: var(--caption1-regular);
+}
+.appName22 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--caption1-regular-size);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 14px;
+  flex-shrink: 0;
+}
+.row1,
+.row1App2 {
+  position: absolute;
+}
+.row1App2 {
+  top: 0;
+  left: 90.33px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-18xl-5);
+  color: var(--color-gray-100);
+  font-family: var(--font-helvetica);
+}
+.row1 {
+  top: 26px;
+  left: 31px;
+  width: 331px;
+  height: 79px;
+}
+.appIcons {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-family: var(--caption1-regular);
+}
+.search {
+  position: relative;
+  letter-spacing: -0.4px;
+  line-height: 16px;
+}
+.searchField {
+  border-radius: var(--br-81xl);
+  background: linear-gradient(#9c9c9c, #9c9c9c), rgba(37, 37, 37, 0.55);
+  backdrop-filter: blur(50px);
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-2xs);
+  box-sizing: border-box;
+  font-size: var(--caption1-regular-size);
+}
+.background,
+.dock {
+  border-radius: var(--br-22xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.background {
+  align-self: stretch;
+  flex: 1;
+  background: linear-gradient(#9c9c9c, #9c9c9c), rgba(37, 37, 37, 0.55);
+  backdrop-filter: blur(50px);
+  padding: var(--padding-lgi) 0;
+  gap: var(--gap-11xl);
+}
+.dock {
+  width: 393px;
+  padding: var(--padding-xs) var(--padding-2xs);
+  box-sizing: border-box;
+  font-family: var(--caption1-regular);
+}
+.homeScreenIphone,
+.tv {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.homeScreenIphone {
+  left: calc(50% - 196.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  background-image: url(/public/home-screen--iphone@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.tv {
+  width: 100%;
+  right: 0;
+  left: 0;
+  background-color: #000;
+}
+.logomy1Icon {
+  position: absolute;
+  top: 14px;
+  left: 5px;
+  width: 51px;
+  height: 32px;
+  object-fit: cover;
+}
+.frame24 {
+  position: absolute;
+  top: 482px;
+  left: 31px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.iphoneHomeScreenDark {
+  position: relative;
+  width: 100%;
+  height: 852px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--labels-primary-dark);
+  font-family: var(--font-helvetica);
+}
